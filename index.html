@@ -3,233 +3,152 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Privacy Policy for VocabCross: English Puzzle by Zangord.">
+  <meta name="description" content="Privacy Policy and account deletion information for VocabCross: English Puzzle by Zangord.">
   <meta name="theme-color" content="#17324d">
   <title>VocabCross Privacy Policy | Zangord</title>
   <style>
-    :root {
-      color-scheme: light;
-      --cream: #fff9f2;
-      --navy: #17324d;
-      --coral: #ff6b57;
-      --lavender: #e9ddfb;
-      --mint: #bfe7d5;
-      --muted: #5d6b78;
-      --line: #d7dfe5;
-    }
-    * { box-sizing: border-box; }
-    html { scroll-behavior: smooth; }
-    body {
-      margin: 0;
-      background: var(--cream);
-      color: var(--navy);
-      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-      line-height: 1.65;
-    }
-    a { color: #245f93; text-underline-offset: 3px; }
-    .topbar {
-      background: var(--navy);
-      color: white;
-      border-bottom: 5px solid var(--coral);
-    }
-    .topbar-inner, main, footer {
-      width: min(920px, calc(100% - 32px));
-      margin: 0 auto;
-    }
-    .topbar-inner { padding: 34px 0 30px; }
-    .brand {
-      display: inline-flex;
-      align-items: center;
-      gap: 12px;
-      font-size: 0.82rem;
-      font-weight: 800;
-      letter-spacing: 0.13em;
-      text-transform: uppercase;
-    }
-    .mark {
-      width: 34px;
-      height: 34px;
-      border-radius: 9px;
-      background:
-        linear-gradient(90deg, transparent 30%, white 30% 38%, transparent 38% 62%, white 62% 70%, transparent 70%),
-        linear-gradient(transparent 30%, white 30% 38%, transparent 38% 62%, white 62% 70%, transparent 70%),
-        var(--coral);
-    }
-    h1 { margin: 22px 0 8px; font-size: clamp(2rem, 6vw, 3.7rem); line-height: 1.05; }
-    .subtitle { margin: 0; color: #d9e6ef; font-size: 1.05rem; }
-    .language-nav { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 24px; }
-    .language-nav a {
-      color: white;
-      border: 1px solid rgba(255,255,255,.45);
-      border-radius: 999px;
-      padding: 8px 14px;
-      font-weight: 700;
-      text-decoration: none;
-    }
-    .language-nav a:hover, .language-nav a:focus-visible { background: rgba(255,255,255,.14); }
-    main { padding: 38px 0 28px; }
-    .summary {
-      display: grid;
-      grid-template-columns: repeat(3, minmax(0, 1fr));
-      gap: 12px;
-      margin-bottom: 34px;
-    }
-    .summary div { border-radius: 18px; padding: 18px; background: white; border: 1px solid var(--line); }
-    .summary div:nth-child(2) { background: var(--lavender); }
-    .summary div:nth-child(3) { background: var(--mint); }
-    .summary strong { display: block; margin-bottom: 4px; }
-    article {
-      background: white;
-      border: 1px solid var(--line);
-      border-radius: 24px;
-      padding: clamp(22px, 5vw, 48px);
-      box-shadow: 0 14px 44px rgba(23,50,77,.07);
-    }
-    article + article { margin-top: 30px; }
-    h2 { margin: 0 0 6px; font-size: clamp(1.7rem, 4vw, 2.3rem); }
-    h3 { margin-top: 30px; margin-bottom: 6px; font-size: 1.15rem; }
-    p, ul { color: #344b60; }
-    li + li { margin-top: 6px; }
-    .updated { margin-top: 0; color: var(--muted); }
-    .contact {
-      margin-top: 32px;
-      padding: 20px;
-      border-left: 5px solid var(--coral);
-      border-radius: 10px;
-      background: var(--cream);
-    }
-    footer { padding: 12px 0 40px; color: var(--muted); text-align: center; }
-    @media (max-width: 680px) {
-      .summary { grid-template-columns: 1fr; }
-      .topbar-inner { padding-top: 24px; }
-    }
+    :root { color-scheme: light; --cream:#fff9f2; --navy:#17324d; --coral:#ff6b57; --lavender:#e9ddfb; --mint:#bfe7d5; --line:#d7dfe5; --muted:#5d6b78; }
+    * { box-sizing:border-box; }
+    html { scroll-behavior:smooth; }
+    body { margin:0; background:var(--cream); color:var(--navy); font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; line-height:1.65; }
+    a { color:#245f93; text-underline-offset:3px; }
+    a:focus-visible { outline:3px solid var(--coral); outline-offset:3px; }
+    .topbar { background:var(--navy); color:white; border-bottom:5px solid var(--coral); }
+    .wrap { width:min(920px,calc(100% - 32px)); margin:0 auto; }
+    .topbar .wrap { padding:30px 0 34px; }
+    .brand { display:inline-flex; align-items:center; gap:12px; font-size:.82rem; font-weight:800; letter-spacing:.13em; text-transform:uppercase; }
+    .mark { width:34px; height:34px; border-radius:9px; background:linear-gradient(90deg,transparent 30%,white 30% 38%,transparent 38% 62%,white 62% 70%,transparent 70%),linear-gradient(transparent 30%,white 30% 38%,transparent 38% 62%,white 62% 70%,transparent 70%),var(--coral); }
+    h1 { margin:22px 0 8px; font-size:clamp(2rem,6vw,3.7rem); line-height:1.08; }
+    .subtitle { margin:0; color:#d9e6ef; }
+    .nav { display:flex; flex-wrap:wrap; gap:10px; margin-top:24px; }
+    .nav a { color:white; border:1px solid rgba(255,255,255,.5); border-radius:999px; padding:8px 14px; font-weight:700; text-decoration:none; }
+    .nav a:hover { background:rgba(255,255,255,.14); }
+    .nav .primary { color:var(--navy); background:var(--mint); border-color:var(--mint); }
+    main { padding:34px 0; }
+    .summary { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:12px; margin-bottom:18px; }
+    .summary div { border-radius:18px; padding:18px; background:white; border:1px solid var(--line); }
+    .summary div:nth-child(2) { background:var(--lavender); }
+    .summary div:nth-child(3) { background:var(--mint); }
+    .summary strong { display:block; margin-bottom:4px; }
+    .deletion { margin-bottom:30px; padding:18px 22px; border:2px solid var(--coral); border-radius:18px; background:white; }
+    .deletion p { margin:4px 0 10px; }
+    .button { display:inline-block; padding:9px 16px; border-radius:10px; background:var(--navy); color:white; text-decoration:none; font-weight:800; }
+    .button:hover { background:#245f93; }
+    article { background:white; border:1px solid var(--line); border-radius:24px; padding:clamp(22px,5vw,48px); box-shadow:0 14px 44px rgba(23,50,77,.07); }
+    article + article { margin-top:30px; }
+    h2 { margin:0 0 6px; font-size:clamp(1.7rem,4vw,2.3rem); }
+    h3 { margin:28px 0 6px; font-size:1.15rem; }
+    p,ul { color:#344b60; }
+    li + li { margin-top:6px; }
+    .updated { margin-top:0; color:var(--muted); }
+    .contact { margin-top:30px; padding:20px; border-left:5px solid var(--coral); border-radius:10px; background:var(--cream); }
+    footer { padding:8px 0 38px; color:var(--muted); text-align:center; }
+    @media(max-width:680px) { .summary { grid-template-columns:1fr; } .topbar .wrap { padding-top:24px; } }
   </style>
 </head>
 <body>
   <header class="topbar">
-    <div class="topbar-inner">
+    <div class="wrap">
       <div class="brand"><span class="mark" aria-hidden="true"></span>Zangord</div>
       <h1>VocabCross Privacy Policy</h1>
       <p class="subtitle">Privacy information for VocabCross: English Puzzle</p>
-      <nav class="language-nav" aria-label="Policy languages">
+      <nav class="nav" aria-label="Page navigation">
         <a href="#english">English</a>
         <a href="#turkce" lang="tr">Türkçe</a>
+        <a class="primary" href="delete-account.html">Request account deletion / <span lang="tr">Hesap silme talebi</span></a>
       </nav>
     </div>
   </header>
 
-  <main>
+  <main class="wrap">
     <section class="summary" aria-label="Privacy summary">
-      <div><strong>Local profile</strong>Your chosen player name and puzzle progress remain in the app's local storage.</div>
-      <div><strong>Analytics</strong>Firebase measures app opens and gameplay events without receiving your chosen player name or puzzle answers.</div>
-      <div><strong>Your choice</strong>Rewarded ads are optional, and advertising privacy choices are available where required.</div>
+      <div><strong>Offline-first</strong>Game progress is stored on your device.</div>
+      <div><strong>Cloud, when enabled</strong>A Firebase guest account can back up progress; Google connection and social use have separate choices.</div>
+      <div><strong>Ads and analytics</strong>Rewarded and completion interstitial ads may appear. Google services process usage and ad data.</div>
+    </section>
+    <section class="deletion" aria-label="Account deletion">
+      <strong>Delete your VocabCross account / <span lang="tr">VocabCross hesabınızı silin</span></strong>
+      <p>Request deletion even if you no longer have the app. <span lang="tr">Uygulamaya erişiminiz olmasa da silme talebi gönderebilirsiniz.</span></p>
+      <a class="button" href="delete-account.html">Account deletion / <span lang="tr">Hesap silme</span></a>
     </section>
 
     <article id="english">
       <h2>Privacy Policy</h2>
-      <p class="updated"><strong>Developer:</strong> Zangord · <strong>Last updated:</strong> 1 August 2026</p>
-      <p>VocabCross: English Puzzle is an offline-first vocabulary game with advertising and optional rewarded hints. This policy explains what information is stored locally and what information may be processed by third-party services included in the app.</p>
+      <p class="updated"><strong>Developer:</strong> Zangord · <strong>Last updated:</strong> 5 October 2026</p>
+      <p>VocabCross is an offline-first vocabulary game. Cloud/account/social features are not enabled in every build. If enabled, the app creates a Firebase guest account for cloud backup; connecting it to Google for recovery is optional. Google Play Games is a separate optional service.</p>
 
-      <h3>Information stored on your device</h3>
-      <p>VocabCross stores the following information locally:</p>
-      <ul>
-        <li>the player name you choose;</li>
-        <li>CEFR level, puzzle length, interface language, music volume, and sound preferences;</li>
-        <li>scores, spendable points, EXP, player level, completed-puzzle count, daily streak, and word-learning progress;</li>
-        <li>unfinished puzzle entries, used hints, active solving time, and pending result or reward state.</li>
-      </ul>
-      <p>The app does not operate its own email/password account system. Android system backup is disabled for this local profile. The chosen player name and puzzle answers are not attached to Firebase Analytics events.</p>
+      <h3>Information on your device</h3>
+      <p>The app stores your chosen player name, game and display preferences, scores, points, EXP, streaks, badges, word-learning history, unfinished puzzles, attempts, hints, and pending results or rewards on your device.</p>
 
-      <h3>Firebase Analytics</h3>
-      <p>VocabCross uses Google Analytics for Firebase to understand feature use and improve the game. Firebase automatically measures events such as first open and sessions. The app also measures puzzle starts and completions, hint use, rewarded-ad completion, daily check-ins, streak recovery, double-point rewards, and result sharing.</p>
-      <p>Event parameters may include CEFR level, puzzle length and number, word count or length, hint source and point cost, score, EXP, rewarded points, streak length, missed-day count, selected interface language, device country or region, and whether a solution was revealed. Depending on device and service settings, Firebase may process app-instance or device identifiers, app and device information, diagnostics, advertising identifiers, and coarse location inferred from an IP address.</p>
+      <h3>Cloud accounts and social features, when enabled</h3>
+      <p>Firebase processes a guest account identifier or a Google-connected account, your chosen profile name and preferences, gameplay totals and achievements, point balance and sync receipts, daily check-ins, and account/device installation identifiers needed for synchronization. When you connect Google, Firebase Authentication processes the credential and account information Google provides. Your Google email address and Google account name are not displayed as your VocabCross social identity. VocabCross has no own email/password login.</p>
+      <p>If you use social features, VocabCross stores your chosen username and display name, built-in avatar, friend code, featured badges, discovery preference, invitations, friendships, blocks, friend challenges and attempts, leaderboard entries, and structured safety-report categories. Reports do not contain free-text messages. Other players may see your VocabCross identity and relevant progress or scores in these features. Exact username search is available only when you enable username discovery; someone with your friend code may still use it to find you.</p>
+
+      <h3>Analytics</h3>
+      <p>Google Analytics for Firebase measures first opens, sessions, puzzle activity, hints, rewards, sharing actions, account/social status, and cloud-sync reliability. Event details may include CEFR level, puzzle mode/length/number, a pseudonymous puzzle-session ID, word lengths and counts, attempts and hints, scores, solve time, EXP, streak data, device country or selected app language, and status/error categories. Your chosen name, Google email address, entered puzzle answers, and typed word attempts are not attached to Analytics events. Depending on settings, Google may also process app-instance or device identifiers, app/device information, diagnostics, advertising identifiers, and approximate location inferred from IP address.</p>
 
       <h3>Advertising and consent</h3>
-      <p>VocabCross uses Google Mobile Ads to display an adaptive banner, full-screen interstitials at natural transitions after completed puzzles, and optional rewarded ads. Rewarded ads may provide a letter hint, repeat the spendable points earned in a completed puzzle, or restore an eligible daily streak. They do not double EXP, best score, or lifetime score.</p>
-      <p>Google and its advertising partners may process device information, IP address, advertising identifiers where available, ad interactions, diagnostics, fraud-prevention signals, and consent choices to provide and measure advertising. VocabCross uses Google's User Messaging Platform to request and store advertising privacy choices where required. Players can revisit those choices from the app when the option is required.</p>
+      <p>VocabCross uses Google Mobile Ads. Optional rewarded ads can provide a hint, word reveal, extra spendable points, or eligible streak recovery. A non-rewarded full-screen interstitial may appear after some completed puzzles (the current rule is every third eligible completion, subject to availability and other prompts), not while solving. The current home screen does not display a banner ad.</p>
+      <p>Google and its advertising partners may process device information, IP address, available advertising identifiers, ad interactions, diagnostics, fraud-prevention signals, and consent choices. Google's User Messaging Platform asks for and stores advertising choices where required; the app shows Advertising Privacy Choices when applicable.</p>
 
-      <h3>Google Play Games</h3>
-      <p>If Google Play Games Services is enabled in a published build, Google may authenticate the player's Play Games identity. This platform identity is separate from the local VocabCross profile. The game remains usable without a developer-operated VocabCross account.</p>
-
-      <h3>Sharing and service providers</h3>
-      <p>Information described above may be processed by Google as the provider of Firebase Analytics, Google Mobile Ads, the User Messaging Platform, and optional Play Games Services. VocabCross does not sell the locally chosen player name or puzzle answers. When a player chooses Share Result, the app sends the prepared text to the Android share sheet; Zangord does not receive the selected destination or message through VocabCross.</p>
+      <h3>Google Play Games and sharing</h3>
+      <p>If configured and used, Google Play Games handles platform sign-in, leaderboards, and achievements under Google's policy. It is separate from the VocabCross cloud account and is not required for VocabCross friends. When you choose to share a result or friend code, the prepared text goes to the Android share sheet; the recipient app and your sharing choice are outside VocabCross.</p>
 
       <h3>Retention, deletion, and security</h3>
-      <p>Local game data remains until the player clears the app's storage or uninstalls the app. Either action deletes the locally stored profile and progress. Data processed by Google is retained according to Google's service settings and policies. Network communications made by Google SDKs use encrypted connections.</p>
+      <p><strong>Disconnect</strong> pauses cloud backup and social features on this device without deleting your cloud account or local progress. <strong>Delete account</strong> is different: after you confirm and cloud deletion succeeds, the app asks Android to clear this installation's app data, including offline progress. A Google-connected account requires fresh Google sign-in. If the device reset fails, the app asks you to retry or clear its data in Android settings; a failed or cancelled cloud deletion does not clear local data. A <a href="delete-account.html">deletion request without the app</a> can start removal of verified cloud data but cannot remotely erase offline data stored on your devices; clear the app's storage or uninstall it to remove that data. Cloud account and associated profile/social data are held while the account is active. When deletion succeeds, VocabCross cloud data managed by Zangord is removed except for the limited retention described below.</p>
+      <p>A username blocked after a safety review may remain reserved to prevent reuse after account deletion. That reservation contains the blocked name and action time, without an associated account or report identifier; no fixed expiry is set for it. If other information must be kept for a valid legal, security, or fraud-prevention obligation, we will explain its category and reason. No fixed deletion-completion period is promised here. Data processed by Google Analytics, advertising, or Play Games is also subject to Google's settings, policies, and deletion controls. Cloud services use Firebase authentication, app verification, restricted database access, and encrypted network connections; no system guarantees absolute security.</p>
 
-      <h3>Children</h3>
-      <p>VocabCross is not directed specifically to children under 13. The developer does not knowingly collect a child's chosen local player name through VocabCross Analytics.</p>
-
-      <h3>Changes to this policy</h3>
-      <p>This policy may be updated when the app or its service providers change. The date at the top of this policy will be revised when changes are published.</p>
+      <h3>Children and changes</h3>
+      <p>VocabCross is not directed specifically to children under 13. We will revise the date above when this policy changes.</p>
 
       <h3>Third-party privacy information</h3>
       <ul>
         <li><a href="https://firebase.google.com/support/privacy" rel="noreferrer">Firebase privacy and security</a></li>
-        <li><a href="https://policies.google.com/technologies/ads" rel="noreferrer">Google advertising privacy information</a></li>
+        <li><a href="https://policies.google.com/technologies/ads" rel="noreferrer">Google advertising privacy</a></li>
         <li><a href="https://policies.google.com/privacy" rel="noreferrer">Google Privacy Policy</a></li>
       </ul>
-
-      <div class="contact">
-        <strong>Contact</strong><br>
-        For privacy questions, support requests, or data-related inquiries, email
-        <a href="mailto:zangord.support@gmail.com">zangord.support@gmail.com</a>.
-      </div>
+      <div class="contact"><strong>Contact</strong><br>For privacy, support, or deletion inquiries, email <a href="mailto:zangord.support@gmail.com">zangord.support@gmail.com</a>. Do not email passwords, one-time codes, access tokens, or identity-document scans.</div>
     </article>
 
     <article id="turkce" lang="tr">
       <h2>Gizlilik Politikası</h2>
-      <p class="updated"><strong>Geliştirici:</strong> Zangord · <strong>Son güncelleme:</strong> 1 Ağustos 2026</p>
-      <p>VocabCross: English Puzzle, reklamlar ve isteğe bağlı ödüllü ipuçları içeren, öncelikle çevrimdışı çalışan bir kelime oyunudur. Bu politika, hangi bilgilerin cihazda saklandığını ve uygulamadaki üçüncü taraf hizmetlerin hangi bilgileri işleyebileceğini açıklar.</p>
+      <p class="updated"><strong>Geliştirici:</strong> Zangord · <strong>Son güncelleme:</strong> 5 Ekim 2026</p>
+      <p>VocabCross, öncelikle çevrimdışı çalışan bir kelime oyunudur. Bulut/hesap/sosyal özellikler her sürümde açık değildir. Açık olduklarında bulut yedeği için Firebase misafir hesabı oluşturulur; hesabı kurtarmak için Google'a bağlamak isteğe bağlıdır. Google Play Games ayrı ve isteğe bağlı bir hizmettir.</p>
 
-      <h3>Cihazınızda saklanan bilgiler</h3>
-      <p>VocabCross aşağıdaki bilgileri yerel olarak saklar:</p>
-      <ul>
-        <li>seçtiğiniz oyuncu adı;</li>
-        <li>CEFR seviyesi, bulmaca uzunluğu, arayüz dili, müzik seviyesi ve ses tercihleri;</li>
-        <li>skorlar, harcanabilir puanlar, EXP, oyuncu seviyesi, tamamlanan bulmaca sayısı, günlük seri ve kelime öğrenme ilerlemesi;</li>
-        <li>bitmemiş bulmaca girişleri, kullanılan ipuçları, aktif çözüm süresi ve bekleyen sonuç veya ödül durumu.</li>
-      </ul>
-      <p>Uygulama kendisine ait bir e-posta/parola hesap sistemi çalıştırmaz. Yerel profil için Android sistem yedeklemesi kapalıdır. Seçilen oyuncu adı ve bulmaca cevapları Firebase Analytics olaylarına eklenmez.</p>
+      <h3>Cihazınızdaki bilgiler</h3>
+      <p>Uygulama; seçtiğiniz oyuncu adını, oyun ve görünüm tercihlerini, skorları, puanları, EXP'yi, serileri, rozetleri, kelime öğrenme geçmişini, yarım kalan bulmacaları, denemeleri, ipuçlarını ve bekleyen sonuç/ödülleri cihazınızda saklar.</p>
 
-      <h3>Firebase Analytics</h3>
-      <p>VocabCross, özellik kullanımını anlamak ve oyunu iyileştirmek için Google Analytics for Firebase kullanır. Firebase ilk açılış ve oturum gibi olayları otomatik olarak ölçer. Uygulama ayrıca bulmaca başlangıç ve tamamlanmalarını, ipucu kullanımını, ödüllü reklam tamamlamalarını, günlük girişleri, seri kurtarmayı, iki kat puan ödüllerini ve sonuç paylaşımını ölçer.</p>
-      <p>Olay parametreleri; CEFR seviyesi, bulmaca uzunluğu ve numarası, kelime sayısı veya uzunluğu, ipucu kaynağı ve puan maliyeti, skor, EXP, ödül puanı, seri uzunluğu, kaçırılan gün sayısı, seçilen arayüz dili, cihaz ülkesi veya bölgesi ve çözümün gösterilip gösterilmediğini içerebilir. Firebase; cihaz ve hizmet ayarlarına bağlı olarak uygulama örneği veya cihaz kimlikleri, uygulama ve cihaz bilgileri, tanılama verileri, reklam kimlikleri ve IP adresinden çıkarılan yaklaşık konum bilgisini işleyebilir.</p>
+      <h3>Bulut hesapları ve sosyal özellikler (etkinse)</h3>
+      <p>Firebase; misafir hesap kimliğini veya Google'a bağlı hesabı, seçtiğiniz profil adı ve tercihleri, oyun toplamlarını ve başarıları, puan bakiyesi ve eşitleme kayıtlarını, günlük girişleri ve eşitleme için gereken hesap/cihaz kurulum kimliklerini işler. Google bağlantısı kurduğunuzda Firebase Authentication, Google'ın sağladığı kimlik doğrulama ve hesap bilgilerini işler. Google e-posta adresiniz veya Google hesap adınız VocabCross sosyal kimliği olarak gösterilmez. VocabCross'un kendine ait e-posta/parola girişi yoktur.</p>
+      <p>Sosyal özellikleri kullanırsanız seçtiğiniz kullanıcı ve görünen ad, hazır avatar, arkadaş kodu, öne çıkan rozetler, bulunabilirlik tercihi, davetler, arkadaşlıklar, engellemeler, arkadaş meydan okumaları ve denemeleri, sıralama kayıtları ve kategorili güvenlik bildirimleri saklanır. Bildirimler serbest metin içermez. Diğer oyuncular bu özelliklerde VocabCross kimliğinizi ve ilgili ilerleme veya skorlarınızı görebilir. Tam kullanıcı adıyla arama yalnızca bulunabilirliği açtığınızda mümkündür; arkadaş kodunuzu bilen biri kodla sizi bulabilir.</p>
+
+      <h3>Analitik</h3>
+      <p>Google Analytics for Firebase; ilk açılışları, oturumları, bulmaca etkinliğini, ipuçlarını, ödülleri, paylaşım eylemlerini, hesap/sosyal durumunu ve bulut eşitleme güvenilirliğini ölçer. Olaylarda CEFR seviyesi, bulmaca türü/uzunluğu/numarası, takma adlı bulmaca oturumu kimliği, kelime uzunluğu ve sayısı, deneme ve ipuçları, skor, çözme süresi, EXP, seri bilgisi, cihaz ülkesi veya seçilen uygulama dili ve durum/hata kategorileri bulunabilir. Seçtiğiniz ad, Google e-posta adresi, girilen bulmaca cevapları ve yazdığınız kelime denemeleri Analytics olaylarına eklenmez. Ayarlara bağlı olarak Google; uygulama örneği veya cihaz kimlikleri, uygulama/cihaz bilgileri, tanılama verileri, reklam kimlikleri ve IP adresinden çıkarılan yaklaşık konumu da işleyebilir.</p>
 
       <h3>Reklamlar ve izin tercihleri</h3>
-      <p>VocabCross; uyarlanabilir banner, tamamlanan bulmacalardan sonraki doğal geçişlerde tam ekran reklam ve isteğe bağlı ödüllü reklam göstermek için Google Mobile Ads kullanır. Ödüllü reklamlar harf ipucu verebilir, tamamlanan bulmacada kazanılan harcanabilir puanı bir kez daha sağlayabilir veya uygun bir günlük seriyi geri yükleyebilir. EXP, en iyi skor veya yaşam boyu skor ikiye katlanmaz.</p>
-      <p>Google ve reklam ortakları; reklam sunmak ve ölçmek amacıyla cihaz bilgileri, IP adresi, mevcut olduğunda reklam kimlikleri, reklam etkileşimleri, tanılama verileri, sahtekârlığı önleme sinyalleri ve izin tercihlerini işleyebilir. VocabCross, gerekli bölgelerde reklam gizliliği tercihlerini almak ve saklamak için Google User Messaging Platform kullanır. Gerekli olduğunda oyuncular bu tercihleri uygulama içinden yeniden açabilir.</p>
+      <p>VocabCross, Google Mobile Ads kullanır. İsteğe bağlı ödüllü reklamlar ipucu, kelime açma, ek harcanabilir puan veya uygun seri kurtarma sağlayabilir. Ödülsüz tam ekran geçiş reklamı bazı tamamlanan bulmacalardan sonra gösterilebilir (mevcut kural, reklamın kullanılabilirliği ve diğer istemler dikkate alınarak uygun her üçüncü tamamlamadır); bulmaca çözülürken gösterilmez. Mevcut ana ekranda banner reklam gösterilmez.</p>
+      <p>Google ve reklam ortakları; cihaz bilgileri, IP adresi, mevcut reklam kimlikleri, reklam etkileşimleri, tanılama, sahtekârlığı önleme sinyalleri ve izin tercihlerini işleyebilir. Google User Messaging Platform, gerekli bölgelerde reklam tercihlerini sorup saklar; ilgili olduğunda uygulama Reklam Gizliliği Tercihleri seçeneğini gösterir.</p>
 
-      <h3>Google Play Games</h3>
-      <p>Yayınlanan sürümde Google Play Games Services etkinleştirilirse Google, oyuncunun Play Games kimliğini doğrulayabilir. Bu platform kimliği yerel VocabCross profilinden ayrıdır. Oyun, geliştirici tarafından işletilen bir VocabCross hesabı olmadan kullanılabilir.</p>
-
-      <h3>Paylaşım ve hizmet sağlayıcılar</h3>
-      <p>Yukarıda açıklanan bilgiler; Firebase Analytics, Google Mobile Ads, User Messaging Platform ve isteğe bağlı Play Games Services sağlayıcısı olarak Google tarafından işlenebilir. VocabCross, yerel oyuncu adını veya bulmaca cevaplarını satmaz. Oyuncu Sonucu Paylaş seçeneğini kullandığında uygulama hazırlanan metni Android paylaşım ekranına gönderir; Zangord seçilen hedefi veya mesajı VocabCross üzerinden almaz.</p>
+      <h3>Google Play Games ve paylaşım</h3>
+      <p>Yapılandırılıp kullanıldığında Google Play Games; platform girişini, sıralamaları ve başarıları Google'ın politikasına göre yürütür. VocabCross bulut hesabından ayrıdır ve VocabCross arkadaşları için gerekli değildir. Sonuç veya arkadaş kodu paylaşmayı seçtiğinizde hazırlanan metin Android paylaşım ekranına gönderilir; alıcı uygulama ve paylaşım tercihiniz VocabCross'un dışındadır.</p>
 
       <h3>Saklama, silme ve güvenlik</h3>
-      <p>Yerel oyun verileri, oyuncu uygulama verilerini temizleyene veya uygulamayı kaldırana kadar saklanır. Her iki işlem de yerel profil ve ilerlemeyi siler. Google tarafından işlenen bilgiler Google'ın hizmet ayarları ve politikalarına göre saklanır. Google SDK'larının ağ iletişimleri şifreli bağlantılar kullanır.</p>
+      <p><strong>Bağlantıyı kes</strong> işlemi, bulut hesabınızı ve cihazdaki ilerlemenizi silmeden bu cihazda bulut yedeklemeyi ve sosyal özellikleri durdurur. <strong>Hesabı sil</strong> farklıdır: onayınızdan ve bulut hesabı başarıyla silindikten sonra uygulama, çevrimdışı ilerleme dâhil bu kurulumun verilerini Android'den temizlemesini ister. Google'a bağlı hesapta yeniden Google kimlik doğrulaması gerekir. Cihaz verileri temizlenemezse uygulama yeniden denemenizi veya Android ayarlarından verileri temizlemenizi ister; başarısız ya da iptal edilen bulut silme işlemi yerel verileri temizlemez. Uygulama dışından <a href="delete-account.html#turkce">silme talebi</a> göndererek doğrulanan bulut verilerinizin kaldırılması sürecini başlatabilirsiniz; ancak cihazlarınızdaki çevrimdışı veriler uzaktan silinemez. Bunları kaldırmak için uygulama verilerini temizleyin veya uygulamayı kaldırın. Bulut hesabı ve ilişkili profil/sosyal veriler hesap etkin olduğu sürece tutulur. Silme başarıyla tamamlandığında Zangord'un yönettiği VocabCross bulut verileri, aşağıda açıklanan sınırlı saklama hariç kaldırılır.</p>
+      <p>Güvenlik incelemesi sonucunda engellenen bir kullanıcı adı, silme sonrasında yeniden kullanılmasını önlemek için ayrılmış kalabilir. Bu kayıt yalnızca engellenen adı ve işlem zamanını içerir; hesap veya bildirim kimliğiyle ilişkilendirilmez ve henüz sabit bir bitiş süresi yoktur. Geçerli bir yasal, güvenlik veya sahtekârlığı önleme yükümlülüğü nedeniyle başka bilgiler saklanmak zorundaysa bunların kategorisini ve nedenini açıklarız. Burada sabit bir silme tamamlama süresi taahhüt edilmiyor. Google Analytics, reklam ve Play Games verileri ayrıca Google'ın ayarlarına, politikalarına ve silme kontrollerine tabidir. Bulut hizmetlerinde Firebase kimlik doğrulaması, uygulama doğrulaması, sınırlı veritabanı erişimi ve şifreli ağ bağlantıları kullanılır; hiçbir sistem mutlak güvenlik garantisi vermez.</p>
 
-      <h3>Çocuklar</h3>
-      <p>VocabCross özellikle 13 yaşın altındaki çocuklara yönelik değildir. Geliştirici, çocuğun seçtiği yerel oyuncu adını VocabCross Analytics üzerinden bilerek toplamaz.</p>
-
-      <h3>Politika değişiklikleri</h3>
-      <p>Uygulama veya hizmet sağlayıcılar değiştiğinde bu politika güncellenebilir. Değişiklikler yayımlandığında sayfanın üstündeki tarih yenilenir.</p>
+      <h3>Çocuklar ve değişiklikler</h3>
+      <p>VocabCross özellikle 13 yaş altındaki çocuklara yönelik değildir. Politika değiştiğinde yukarıdaki tarih yenilenir.</p>
 
       <h3>Üçüncü taraf gizlilik bilgileri</h3>
       <ul>
         <li><a href="https://firebase.google.com/support/privacy" rel="noreferrer">Firebase gizlilik ve güvenlik bilgileri</a></li>
-        <li><a href="https://policies.google.com/technologies/ads" rel="noreferrer">Google reklam gizliliği bilgileri</a></li>
+        <li><a href="https://policies.google.com/technologies/ads" rel="noreferrer">Google reklam gizliliği</a></li>
         <li><a href="https://policies.google.com/privacy" rel="noreferrer">Google Gizlilik Politikası</a></li>
       </ul>
-
-      <div class="contact">
-        <strong>İletişim</strong><br>
-        Gizlilik, destek veya veriyle ilgili sorularınız için
-        <a href="mailto:zangord.support@gmail.com">zangord.support@gmail.com</a> adresine e-posta gönderebilirsiniz.
-      </div>
+      <div class="contact"><strong>İletişim</strong><br>Gizlilik, destek veya silme talepleri için <a href="mailto:zangord.support@gmail.com">zangord.support@gmail.com</a> adresine yazın. Parola, tek kullanımlık kod, erişim belirteci veya kimlik belgesi taraması göndermeyin.</div>
     </article>
   </main>
-
-  <footer>© 2026 Zangord · VocabCross: English Puzzle</footer>
+  <footer class="wrap">© 2026 Zangord · VocabCross: English Puzzle</footer>
+  <!-- Owner release review: verify deployed cloud/deletion behavior, actual retention exceptions and periods, Data safety answers, target audience, public URLs, and support-mail workflow before enabling cloud in production. -->
 </body>
 </html>
